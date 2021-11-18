@@ -5,7 +5,7 @@ param storagePrefix string
 @allowed([
   'Standard_LRS'
   'Standard_GRS'
-  'Standard_RAGRS'
+  'Standard_RAGRfS'
 ])
 param storageSKU string = 'Standard_LRS'
 
