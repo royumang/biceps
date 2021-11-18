@@ -7,10 +7,6 @@ param storagePrefix string
   'Standard_GRS'
   'Standard_RAGRS'
   'Standard_ZRS'
-  'Premium_LRS'
-  'Premium_ZRS'
-  'Standard_GZRS'
-  'Standard_RAGZRS'
 ])
 param storageSKU string = 'Standard_LRS'
 
