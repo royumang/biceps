@@ -21,7 +21,6 @@ var uniqueStorageName = '${storagePrefix}${uniqueString(resourceGroup().id)}'
 resource stg 'Microsoft.Storage/storageAccounts@2021-04-01' = {
   name: uniqueStorageName
   location: location
-
   sku: {
     name: storageSKU
   }
